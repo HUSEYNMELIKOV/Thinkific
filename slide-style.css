@@ -1,28 +1,169 @@
-
-.slide .overflow .card1{
+.slide .overflow .card1 {
     position: relative;
-    overflow: hidden;
     border: 1px solid rgb(255, 74, 169);
 }
-.slide .overflow .card1 img{
+
+.slide .overflow .card1 img {
     width: 100%;
 }
+.slide .overflow .bg-img {
+    overflow: hidden;
+    position: relative;
+}
 
-.slide .overflow .card1 .txt{
+.slide .overflow .card1 .txt {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     color: #Fff;
     bottom: 15px;
-    width: 85%; 
+    width: 85%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.slide .overflow .card1 .txt span{
+
+.slide .overflow .card1 .txt span {
     color: #FF4AA9;
     font-weight: 700;
+    font-size: 12px;
 }
-.slide .overflow .card1 .txt p{
-    
+
+.slide .overflow .card1 .txt p {
+    font-size: 16px;
+}
+
+.slide .overflow .card2 {
+    border: 1px solid #f5ff85;
+}
+
+.slide .overflow .card2 .txt {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    width: 50%;
+}
+
+.slide .overflow .card2 .txt span {
+    font-size: 12px;
+    color: #f5ff85;
+    font-weight: 700;
+}
+
+.slide .overflow .card8 {
+    padding: 25px 30px;
+    border: 1px solid #FF4AA9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(180deg, #ff4aa72d 20%, #fff 70%);
+}
+
+.slide .overflow .card9 {
+    padding: 25px 30px;
+    border: 1px solid #Fd612a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(180deg, #fd622a33 20%, #fff 70%);
+}
+
+.slide .overflow .card9 .txt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.slide .overflow .card8 .txt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.slide .overflow .card4 {
+    border: 1px solid #248c7d;
+    overflow: hidden;
+}
+
+.slide .overflow .card4 .txt {
+    position: absolute;
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+
+.slide .overflow .card3 {
+    border: 1px solid #fd612a;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide .overflow .card3 .txt {
+    position: absolute;
+    width: 40%;
+    left: 20px;
+    top: 20px;
+
+}
+
+
+
+.slide .overflow .card5 .txt {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    width: 60%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.slide .overflow .card7 {
+    background-image: linear-gradient(170deg, #3161ff1f 20%, #fff 70%);
+    border: 1px solid #3160ff;
+}
+
+.slide .overflow .card7 .txt {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.slide .overflow .card6 {
+    background-image: linear-gradient(180deg, #ff4aa71c 30%, #fff 70%);
+    border: 1px solid #FF4AA9;
+}
+
+.slide .overflow .card6 .txt {
+    padding: 20px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    gap: 10px;
+}
+
+.slide .overflow .card10 {
+    overflow: hidden;
+    border: 1px solid #f5ff85;
+}
+
+.slide .overflow .card10 .txt {
+    position: absolute;
+    top: 0px;
+    width: 50%;
+    top: 20px;
+    left: 20px;
 }
